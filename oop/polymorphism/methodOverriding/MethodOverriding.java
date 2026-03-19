@@ -1,5 +1,5 @@
 
-package oops.polymorphism.methodOverriding;
+package oop.polymorphism.methodOverriding;
 
 /**
  * Method Overriding is a way to implement Runtime (Dynamic) Polymorphism

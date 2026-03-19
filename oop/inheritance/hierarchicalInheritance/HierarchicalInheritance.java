@@ -1,4 +1,4 @@
-package oops.inheritance.hierarchicalInheritance;
+package oop.inheritance.hierarchicalInheritance;
 
 // Parent class (Superclass)
 class Animal {

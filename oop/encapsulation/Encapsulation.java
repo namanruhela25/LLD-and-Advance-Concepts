@@ -1,4 +1,4 @@
-package oops.encapsulation;
+package oop.encapsulation;
 
 class SportsCar {
     private String brand;

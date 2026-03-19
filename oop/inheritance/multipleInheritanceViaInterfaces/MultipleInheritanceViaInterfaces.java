@@ -1,4 +1,4 @@
-package oops.inheritance.multipleInheritanceViaInterfaces;
+package oop.inheritance.multipleInheritanceViaInterfaces;
 
 // First interface
 interface Swimmer {

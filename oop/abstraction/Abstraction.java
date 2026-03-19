@@ -1,4 +1,4 @@
-package oops.abstraction;
+package oop.abstraction;
 
 // Abstract class demonstrating Abstraction
 abstract class Machine {

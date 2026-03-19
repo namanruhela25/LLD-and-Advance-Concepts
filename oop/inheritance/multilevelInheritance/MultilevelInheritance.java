@@ -1,6 +1,6 @@
-package oops.inheritance.singleInheritance;
+package oop.inheritance.multilevelInheritance;
 
-// Parent class (Superclass)
+// Grandparent class (Superclass)
 class Animal {
     protected String name;
     protected int age;
@@ -23,8 +23,19 @@ class Animal {
     }
 }
 
-// Child class (Subclass) - Single Inheritance
-class Dog extends Animal {
+// Parent class (Intermediate class) - inherits from Animal
+class Mammal extends Animal {
+    public Mammal(String name, int age) {
+        super(name, age);
+    }
+
+    public void giveBirth() {
+        System.out.println(name + " is a mammal and gives birth to live young...");
+    }
+}
+
+// Child class - inherits from Mammal (Multilevel Inheritance)
+class Dog extends Mammal {
     private String breed;
 
     public Dog(String name, int age, String breed) {
@@ -48,18 +59,15 @@ class Dog extends Animal {
 }
 
 // Main class
-public class SingleInheritance {
+public class MultilevelInheritance {
     public static void main(String[] args) {
-        /*
-            Note : If we create reference of Animal then we can only access the methods of Animal class but not the methods of Dog class.
-            myDog.bark(); --> This will give compile-time error because bark() method is not defined in Animal class. To access the bark() method, we need to create reference of Dog class.
-        */
-        Dog myDog = new Dog("Buddy", 5, "Golden Retriever");
+        Dog myDog = new Dog("Max", 3, "Labrador");
 
-        System.out.println("--- Single Inheritance Example ---");
+        System.out.println("--- Multilevel Inheritance Example ---");
         myDog.displayInfo();
         System.out.println();
         myDog.eat();
+        myDog.giveBirth();
         myDog.bark();
         myDog.sleep();
     }

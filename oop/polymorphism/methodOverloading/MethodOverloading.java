@@ -1,4 +1,4 @@
-package oops.polymorphism.methodOverloading;
+package oop.polymorphism.methodOverloading;
 
 /**
  * Method Overloading is a way to implement Compile-time (Static) Polymorphism
