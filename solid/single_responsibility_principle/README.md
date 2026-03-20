@@ -29,6 +29,8 @@ In simpler terms:
 
 **File**: `SRPViolated.java`
 
+![SRP Violated](violatesSRP.png)
+
 The `ShoppingCart` class has multiple responsibilities:
 
 ```java
@@ -71,6 +73,8 @@ class ShoppingCart {
 ### ✅ SRP FOLLOWED (After)
 
 **File**: `SRPFollowed.java`
+
+![SRP Followed](followedSRP.png)
 
 Each class has a single responsibility:
 
