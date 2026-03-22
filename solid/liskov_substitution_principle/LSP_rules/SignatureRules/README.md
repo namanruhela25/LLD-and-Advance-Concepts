@@ -567,7 +567,7 @@ customer.setAge(-10);  // ✗ Violates invariant!
 
 ```bash
 # Navigate to the directory
-cd /Users/naman/Documents/Learning/LLD/solid/liskov_substiuion_principle/LSP_rules/SignatureRules
+cd /LLD/solid/liskov_substiuion_principle/LSP_rules/SignatureRules
 
 # Compile all files
 javac *.java

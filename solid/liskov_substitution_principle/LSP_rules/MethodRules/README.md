@@ -412,7 +412,7 @@ METHOD CONTRACT
 
 ```bash
 # Navigate to directory
-cd /Users/naman/Documents/Learning/LLD/solid/liskov_substitution_principle/LSP_rules/MethodRules
+cd /solid/liskov_substitution_principle/LSP_rules/MethodRules
 
 # Compile all files
 javac *.java
