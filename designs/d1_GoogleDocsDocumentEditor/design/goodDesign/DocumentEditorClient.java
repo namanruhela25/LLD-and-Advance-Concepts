@@ -1,11 +1,11 @@
-package designs.GoogleDocsDocumentEditor.design.goodDesign;
+package designs.d1_GoogleDocsDocumentEditor.design.goodDesign;
 
-import designs.GoogleDocsDocumentEditor.design.goodDesign.document.Document;
-import designs.GoogleDocsDocumentEditor.design.goodDesign.document.DocumentRenderer;
-import designs.GoogleDocsDocumentEditor.design.goodDesign.editor.DocumentEditor;
-import designs.GoogleDocsDocumentEditor.design.goodDesign.elements.*;
-import designs.GoogleDocsDocumentEditor.design.goodDesign.interfaces.Persistence;
-import designs.GoogleDocsDocumentEditor.design.goodDesign.persistence.SaveToFile;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.document.Document;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.document.DocumentRenderer;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.editor.DocumentEditor;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.elements.*;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.interfaces.Persistence;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.persistence.SaveToFile;
 
 public class DocumentEditorClient {
     public static void main(String[] args) {

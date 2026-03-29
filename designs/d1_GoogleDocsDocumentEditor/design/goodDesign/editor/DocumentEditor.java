@@ -1,12 +1,12 @@
-package designs.GoogleDocsDocumentEditor.design.goodDesign.editor;
+package designs.d1_GoogleDocsDocumentEditor.design.goodDesign.editor;
 
-import designs.GoogleDocsDocumentEditor.design.goodDesign.document.Document;
-import designs.GoogleDocsDocumentEditor.design.goodDesign.elements.TextElement;
-import designs.GoogleDocsDocumentEditor.design.goodDesign.elements.ImageElement;
-import designs.GoogleDocsDocumentEditor.design.goodDesign.elements.NewLineElement;
-import designs.GoogleDocsDocumentEditor.design.goodDesign.elements.TabSpaceElement;
-import designs.GoogleDocsDocumentEditor.design.goodDesign.interfaces.DocumentElement;
-import designs.GoogleDocsDocumentEditor.design.goodDesign.interfaces.Persistence;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.document.Document;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.elements.ImageElement;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.elements.NewLineElement;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.elements.TabSpaceElement;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.elements.TextElement;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.interfaces.DocumentElement;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.interfaces.Persistence;
 
 public class DocumentEditor {
     private Document document;

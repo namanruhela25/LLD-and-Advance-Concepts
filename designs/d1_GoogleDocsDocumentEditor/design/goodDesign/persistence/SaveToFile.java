@@ -1,8 +1,8 @@
-package designs.GoogleDocsDocumentEditor.design.goodDesign.persistence;
+package designs.d1_GoogleDocsDocumentEditor.design.goodDesign.persistence;
 
 import java.io.FileWriter;
 
-import designs.GoogleDocsDocumentEditor.design.goodDesign.interfaces.Persistence;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.interfaces.Persistence;
 
 public class SaveToFile implements Persistence {
     @Override

@@ -1,6 +1,6 @@
-package designs.GoogleDocsDocumentEditor.design.goodDesign.elements;
+package designs.d1_GoogleDocsDocumentEditor.design.goodDesign.elements;
 
-import designs.GoogleDocsDocumentEditor.design.goodDesign.interfaces.DocumentElement;
+import designs.d1_GoogleDocsDocumentEditor.design.goodDesign.interfaces.DocumentElement;
 
 public class ImageElement implements DocumentElement {
     public String path;

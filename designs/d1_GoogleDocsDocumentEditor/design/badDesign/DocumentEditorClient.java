@@ -1,4 +1,4 @@
-package designs.GoogleDocsDocumentEditor.design.badDesign;
+package designs.d1_GoogleDocsDocumentEditor.design.badDesign;
 
 import java.io.FileWriter;
 import java.util.ArrayList;
