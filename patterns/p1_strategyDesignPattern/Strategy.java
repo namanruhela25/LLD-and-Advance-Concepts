@@ -1,9 +1,9 @@
-package patterns.strategyDesignPattern;
+package patterns.p1_strategyDesignPattern;
 
-import patterns.strategyDesignPattern.paymentmethods.PayCreditCard;
-import patterns.strategyDesignPattern.paymentmethods.PayDebitCard;
-import patterns.strategyDesignPattern.paymentmethods.PayUPI;
-import patterns.strategyDesignPattern.paymentmethods.PayWallet;
+import patterns.p1_strategyDesignPattern.paymentmethods.PayCreditCard;
+import patterns.p1_strategyDesignPattern.paymentmethods.PayDebitCard;
+import patterns.p1_strategyDesignPattern.paymentmethods.PayUPI;
+import patterns.p1_strategyDesignPattern.paymentmethods.PayWallet;
 
 public class Strategy {
     public static void main(String[] args) {

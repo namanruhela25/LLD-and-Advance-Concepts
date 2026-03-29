@@ -1,6 +1,6 @@
-package patterns.strategyDesignPattern.paymentmethods;
+package patterns.p1_strategyDesignPattern.paymentmethods;
 
-import patterns.strategyDesignPattern.interfaces.PaymentMethod;
+import patterns.p1_strategyDesignPattern.interfaces.PaymentMethod;
 
 public class PayUPI implements PaymentMethod {
     @Override

@@ -1,6 +1,6 @@
-package patterns.strategyDesignPattern;
+package patterns.p1_strategyDesignPattern;
 
-import patterns.strategyDesignPattern.interfaces.PaymentMethod;
+import patterns.p1_strategyDesignPattern.interfaces.PaymentMethod;
 
 public class PaymentSelector {
     PaymentMethod payCreditCard;

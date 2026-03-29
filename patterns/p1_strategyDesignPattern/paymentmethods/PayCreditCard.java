@@ -1,5 +1,5 @@
-package patterns.strategyDesignPattern.paymentmethods;
-import patterns.strategyDesignPattern.interfaces.PaymentMethod;
+package patterns.p1_strategyDesignPattern.paymentmethods;
+import patterns.p1_strategyDesignPattern.interfaces.PaymentMethod;
 
 public class PayCreditCard implements PaymentMethod {
     @Override
