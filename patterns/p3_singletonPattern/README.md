@@ -254,7 +254,6 @@ The Singleton pattern is used when:
 ---
 
 ## Summary
-
 The Singleton pattern is fundamental in system design. For interviews:
 
 1. **Understand the Problem**: Why we need Singleton (global access, controlled instantiation)
