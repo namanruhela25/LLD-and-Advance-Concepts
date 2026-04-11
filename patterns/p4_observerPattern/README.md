@@ -45,7 +45,7 @@ The Observer pattern is used when:
 ---
 
 ## Diagrams and Quick notes
-![Observer Pattern](observerPattern.png)
+![Observer Pattern](ObserverPattern.png)
 
 ## Implementation Components
 
