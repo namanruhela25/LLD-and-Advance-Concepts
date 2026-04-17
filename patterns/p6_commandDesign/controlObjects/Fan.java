@@ -1,0 +1,11 @@
+package patterns.p6_commandDesign.controlObjects;
+
+public class Fan {
+    public void on() {
+        System.out.println("Fan is ON");
+    }
+
+    public void off() {
+        System.out.println("Fan is OFF");
+    }
+}
