@@ -75,6 +75,10 @@ Benefits:
 
 ---
 
+## Quick notes and diagrams
+![Proxy design pattern](ProxyPattern.png)
+
+
 ## Core Participants
 
 | Participant | Role |
